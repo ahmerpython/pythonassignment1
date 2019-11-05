@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[3]:
+#1. Write a Python program to print the following string in a specific format.
 
 
 poem = """Twinkle, twinkle, little star,
@@ -14,7 +14,7 @@ poem = """Twinkle, twinkle, little star,
 print(poem)
 
 
-# In[27]:
+# Write a Python program to get the Python version you are using
 
 
 import platform
@@ -22,7 +22,7 @@ print('Python current version')
 print(platform.python_version())
 
 
-# In[28]:
+# Write a Python program to display the current date and time.
 
 
 import datetime
@@ -31,39 +31,34 @@ print ("Current date and time : ")
 print (now.strftime("%Y-%m-%d %H:%M:%S"))
 
 
-# In[18]:
+# Write a Python program which accepts the radius of a circle from the user
+# and compute the area.
 
 
-print('Please enter the value of circle radius')
-radius = int(input())
+radius = int(input('Please enter the value of circle radius'))
 area = 3.14 * (radius ** 2 )
 print('Area')
 print(area)
 
 
-# In[25]:
+# Write a Python program which accepts the user's first and last name and
+# print them in reverse order with a space between them.
 
 
-print('Please enter first name')
-firstName = input()
-print('Please enter last name')
-lastName = input()
+firstName = input('Please enter first name')
+lastName = input('Please enter last name')
 print('Reversed full name')
 print(lastName + ' ' + firstName)
 
 
-# In[23]:
+# Write a python program which takes two inputs from user and print them
+# addition
 
 
-print('Please enter value-1 for addition')
-value1 = int(input())
-print('Please enter any value-2 for addition')
-value2 = int(input())
+value1 = int(input('Please enter value-1 for addition'))
+value2 = int(input('Please enter any value-2 for addition'))
 print('Total') 
 print(value1 + value2)
-
-
-# In[ ]:
 
 
 
